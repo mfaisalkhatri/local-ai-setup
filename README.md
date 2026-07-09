@@ -160,7 +160,7 @@ To verify the connection for Ollama configuration, run the following in the term
 
 `docker exec -it LibreChat curl http://host.docker.internal:11434/api/tags`
 
-Check out the updated project forked in my account `https://github.com/mfaisalkhatri/LibreChat`
+Check out the updated project forked in my account [mfaisalkhatri/LibreChat](https://github.com/mfaisalkhatri/LibreChat)
 
 ---
 
