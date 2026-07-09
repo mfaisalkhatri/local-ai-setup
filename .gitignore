@@ -1,0 +1,12 @@
+
+#VS Code setting files
+.vscode/
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+/mochawesome-report/
+.DS_STORE
+
+#Env
+.env
