@@ -244,18 +244,19 @@ Create your account.
 
 # Example Prompts
 
-Open https://playwright.dev and click **Get Started**.
-
+```
+Open https://playwright.dev and click "Get Started".
+```
 ---
-
+```
 Navigate to GitHub and search for Playwright.
-
+```
 ---
-
+```
 Open Google and search for "Playwright MCP".
-
+```
 ---
-
+```
 Navigate to https://parabank.parasoft.com/parabank/index.htm
 Locate "Username" field using "name=username"
 Enter "john" into the "Username" field.
@@ -264,6 +265,7 @@ Enter "demo" into the "Password" field.
 Locator "Log In" button using "input[type="submit"]
 Click on the "Log In" button
 Verify that the "Accounts Overview" page is displayed
+```
 ---
 
 # Execution Flow
@@ -293,6 +295,10 @@ Execution Results
 AI Summary
 ```
 
+---
+## Video Tutorial: Docker + Ollama + Qwen3:8B + LibreChat + Playwright MCP | Build Your Own Local AI QA Engineer 
+
+[![Watch the video](https://img.youtube.com/vi/j_ka0EWYXYo/hqdefault.jpg)](https://youtu.be/j_ka0EWYXYo?si=2dU4MKSe1VAuQH8X)
 ---
 
 # Troubleshooting
@@ -422,4 +428,3 @@ Stop LibreChat
 ```bash
 docker compose down
 ```
-
