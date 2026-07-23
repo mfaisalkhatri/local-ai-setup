@@ -28,10 +28,12 @@ After any navigation-triggering action:
 
 ## Rules for locating web elements
 - Take a fresh snapshot to inspect the current page
-- Do not use XPath locator startegy
+- Never use XPath locator strategy
 - Use the same field name to locate elements, do not hallucinate and add prefix or suffix to field names
 - Use Semantic locator strategy: getByRole, getByText, getByLabel, getByPlaceHolder, getByAltText, getByTitle, getByTestId
-- Do not use brittle CSS selectors.
+- Never use brittle CSS selectors such as .btn-primary, .container > div:nth-child(2), #content div span, or auto-generated classes.
+- Avoid nth() unless there is no unique locator.
+
 
 ## Interaction Rules
 - Verify and confirm that an element exists before interacting.
